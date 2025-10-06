@@ -71,7 +71,7 @@ function FormPost() {
                     onChange={actualizarDatos}
                     required 
                 />
-                {errores.content && <p className="error-validacion">{errores.content}</p>}
+                {errores.author && <p className="error-validacion">{errores.author}</p>}
             </div>
 
             <div>
@@ -84,7 +84,7 @@ function FormPost() {
                     onChange={actualizarDatos}
                     required
                 />
-                {errores.author && <p className="error-validacion">{errores.author}</p>}
+                {errores.content && <p className="error-validacion">{errores.content}</p>}
             </div>
 
             <div>
